@@ -5,6 +5,7 @@
 
 #if exercice == 1
 
+#define PI = 3.14
 int main(){
     std::cout << "Exercice 1 is compiled" << std::endl;
 #ifdef DEBUG
