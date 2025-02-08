@@ -1,6 +1,6 @@
 #include <iostream>
 
-#ifdef exercice
+#ifndef exercice
 #define exercice 1
 #endif
 
