@@ -1,6 +1,8 @@
 #include <iostream>
 
+#ifdef exercice
 #define exercice 1
+#endif
 
 int main(){
 
