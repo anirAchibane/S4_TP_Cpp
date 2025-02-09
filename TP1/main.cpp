@@ -55,6 +55,9 @@ int main(){
     std::cin >> temp; //donner une valeur à temp par l'utilisateur 
     std::cout << "Temperature Fahrenheit: " << 1.8*temp + 32; //afficher temp on Fahrneheit
     return 0;
+    
+#else
+#error "cet exercice n'existe pas"
 #endif
 
 }
