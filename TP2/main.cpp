@@ -49,5 +49,6 @@ int main(){
     std::cout << "Valeurs saisies " << n << " et " << nv << std::endl; 
     return 0;
 }
-
+#else
+#error "cet exercice n'existe pas"
 #endif
