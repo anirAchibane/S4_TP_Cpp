@@ -3,7 +3,7 @@
 
 //Définition du constructeur à paramètres
 Movie::Movie(std::string name_val, std::string rating_val, int watched_val)
-    : name(name_val), rating(rating_val), watched(watched_val) {} // Use initializer list
+    : name(name_val), rating(rating_val), watched(watched_val) {} 
 
 
 //Définition des getters / setters
