@@ -34,7 +34,7 @@ Contient la création de la class `Movie` avec ses attributs `std::string name`,
 Movie.cpp
 ```
 
-Contient la définition du constructeur de `Movie`, ainsi que la définitions des getters, setters et des méthodes `incrementWatched()` `display()`
+Contient la définition du constructeur à paramètres de `Movie`, ainsi que la définitions des getters, setters et des méthodes `incrementWatched()` `display()`
 
 ```
 Movies.hpp
