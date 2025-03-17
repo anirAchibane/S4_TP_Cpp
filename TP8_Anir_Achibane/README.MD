@@ -21,7 +21,7 @@ Pour executer `main.exe`:
 
 ## Exercice:
 
-L'exercice demandé est d'implémenter un programme de suivi des films regardé en créant les classes `Movie` et `Movies` permettant de manipuler une liste de films regardés ainsi que le compteur du nombre de visionnages de chaque film.
+L'exercice demandé est d'implémenter un programme de suivi des films regardé, en créant les classes `Movie` et `Movies` permettant de manipuler une liste de films regardés, ainsi que le compteur du nombre de visionnages de chaque film.
 
 La structure des fichiers et comme suivant:
 
