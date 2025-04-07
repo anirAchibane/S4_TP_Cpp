@@ -1,0 +1,26 @@
+#ifndef TRUST_ACCOUNT_HPP
+#define TRUST_ACCOUNT_HPP
+
+#include "Savings_Account.hpp"
+#include "Savings_Account.hpp"
+#include <iostream>
+
+class Trust_Account : public Savings_Account{
+    private:
+    
+        static constexpr double bonus_amount = 50.0;
+        static constexpr double bonus_threshold = 5000.0;
+        static constexpr int max_withdrawals = 3;
+        static constexpr double max_withdrawals_percent = 0.2;
+    
+    public:
+        int withdrawals;
+
+        Trust_Account(string name = def_name, double balance = def_balance, double int_rate = def_int_rate);
+        bool deposit(double amount);
+        bool withdraw(double amount);
+        friend ostream& operator<<(ostream& cout, Trust_Account account);
+
+};
+
+#endif 
