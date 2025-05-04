@@ -1,0 +1,3 @@
+Nom                 Âge      Salaire        
+Alice               30        500000.50      
+Bob                 40        543333.54      
