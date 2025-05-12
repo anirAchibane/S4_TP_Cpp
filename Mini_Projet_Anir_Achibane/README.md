@@ -1,4 +1,7 @@
 # Mini_Projet_Anir_Achibane
+## Partie 1 et 2:
+
+veuillez choisir entre `main.cpp` et `main2.cpp` pour executer soit le main de la 1ère ou la 2ème partie du Mini Projet.
 
 ## Compilation
 
@@ -65,6 +68,12 @@ Mini_Projet_Anir_Achibane/
 ├── main.cpp
 │   - Tests des fonctionnalités de déploiement, suppression et affichage
 │   - Deux clusters testés avec divers cas (succès / échec)
+│
+├── Cloud Exception.cpp
+│   - Création des exceptions d'allocation des serveurs et accès aux fichiers
+│
+├── MetricLogger.hpp / MetricLogger.cpp
+│   - classe template pour écrire les métriques d'un objet quelconque dans un flux au choix
 │
 ├── Makefile
 ```
